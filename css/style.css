@@ -1,0 +1,128 @@
+#wrapper .row {
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  width: 100%; }
+  #wrapper .row > div {
+    height: 100%;
+    padding: 0; }
+  #wrapper .row #sidebar {
+    border-right: 1px solid #e7e7e7;
+    box-shadow: -2px 0 8px 0 #9a9a9a;
+    z-index: 100; }
+    #wrapper .row #sidebar nav {
+      border-bottom: 1px solid #e7e7e7;
+      border-radius: 0;
+      border-width: 0;
+      margin-bottom: 0;
+      padding: 20px 15px; }
+      #wrapper .row #sidebar nav .navbar-header .navbar-brand img {
+        margin-top: -7px;
+        width: 100px; }
+    #wrapper .row #sidebar .stores .store {
+      background: #fff;
+      cursor: pointer;
+      padding: 20px 10px; }
+      #wrapper .row #sidebar .stores .store > .store-title {
+        font-size: 1.2em;
+        margin: 0; }
+      #wrapper .row #sidebar .stores .store > .store-phone {
+        margin: 0; }
+      #wrapper .row #sidebar .stores .store > .store-distance {
+        font-size: 0.8em;
+        margin: 0; }
+      #wrapper .row #sidebar .stores .store:nth-child(odd) {
+        background: #eee; }
+      #wrapper .row #sidebar .stores .store.is-active > .store-title {
+        font-weight: bold; }
+    @media (min-width: 768px) {
+      #wrapper .row #sidebar .stores {
+        height: calc(100vh - 91px);
+        overflow-y: scroll; } }
+    @media (max-width: 767px) {
+      #wrapper .row #sidebar {
+        border: none;
+        box-shadow: 0 -2px 6px 0 #9a9a9a;
+        height: auto; }
+        #wrapper .row #sidebar nav {
+          margin-bottom: 0; } }
+    @media (max-width: 767px) {
+      #wrapper .row #sidebar {
+        position: fixed;
+        z-index: 100; }
+        #wrapper .row #sidebar #stores {
+          height: calc(100vh - 91px);
+          overflow-x: scroll; } }
+  #wrapper .row #map-wrap {
+    height: 100vh; }
+    #wrapper .row #map-wrap #map {
+      background: #eee;
+      height: 100%; }
+      #wrapper .row #map-wrap #map #loading {
+        left: 50%;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); }
+        #wrapper .row #map-wrap #map #loading img {
+          width: 100px; }
+        #wrapper .row #map-wrap #map #loading p {
+          margin: 5px 0 0; }
+      #wrapper .row #map-wrap #map .transport-icons {
+        margin-top: 5px; }
+        #wrapper .row #map-wrap #map .transport-icons .transport-icon {
+          margin-right: 5px; }
+          #wrapper .row #map-wrap #map .transport-icons .transport-icon img {
+            width: 32px; }
+    #wrapper .row #map-wrap #map-footer {
+      border-top: 1px solid #e7e7e7;
+      display: none;
+      height: 125px; }
+      #wrapper .row #map-wrap #map-footer > .swiper-container {
+        height: 100%; }
+        #wrapper .row #map-wrap #map-footer > .swiper-container .swiper-slide {
+          padding: 20px; }
+      #wrapper .row #map-wrap #map-footer h5 {
+        margin: 0; }
+      #wrapper .row #map-wrap #map-footer .footer-instruction > .inst-title {
+        font-weight: normal; }
+        #wrapper .row #map-wrap #map-footer .footer-instruction > .inst-title > img.inst-icon {
+          float: left;
+          margin-right: 10px;
+          width: 35px; }
+      #wrapper .row #map-wrap #map-footer .footer-instruction-end > .inst-title,
+      #wrapper .row #map-wrap #map-footer .footer-summary > .inst-title {
+        font-size: 1.2em; }
+      #wrapper .row #map-wrap #map-footer .swiper-button-next,
+      #wrapper .row #map-wrap #map-footer .swiper-button-prev {
+        top: auto;
+        bottom: 10px;
+        width: 13.5px;
+        height: 22px;
+        background-size: 13.5px 22px; }
+      #wrapper .row #map-wrap #map-footer .swiper-button-close {
+        background-image: url("../img/x.svg");
+        background-size: 22px;
+        bottom: auto;
+        cursor: pointer;
+        height: 22px;
+        opacity: 0.5;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        width: 22px;
+        z-index: 1; }
+    #wrapper .row #map-wrap.show-footer #map {
+      height: calc(100vh - 125px); }
+    #wrapper .row #map-wrap.show-footer #map-footer {
+      display: block; }
+    @media (max-width: 767px) {
+      #wrapper .row #map-wrap {
+        height: calc(100vh - 91px);
+        top: 91px; }
+        #wrapper .row #map-wrap.show-footer #map {
+          height: calc(100vh - 91px - 125px); } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,116 @@
+[
+  {
+    "location": [-41.1375357, 174.8398979],
+    "title": "Kmart Porirua",
+    "address": "Shop 100, North City Shopping Centre, 2 Titahi Bay Rd, Porirua 5022",
+    "phone": "04-238 7100"
+  },
+  {
+    "location": [-41.2214061, 174.8730755],
+    "title": "Kmart Petone",
+    "address": "35 Hutt Rd, Petone, Lower Hutt 5012",
+    "phone": "04-568 1300"
+  },
+  {
+    "location": [-40.3580562, 175.6137085],
+    "title": "Kmart Palmerston North",
+    "address": "The Plaza Shopping Centre Ferguson St, Palmerston North, 4410",
+    "phone": "06-351 2100"
+  },
+  {
+    "location": [-39.6405951, 176.8469238],
+    "title": "Kmart Hastings",
+    "address": "The Plaza St Aubyn Street East & Karamu Road, Hastings, 4122",
+    "phone": "06-833 9300"
+  },
+  {
+    "location": [-37.9539438, 176.9664001],
+    "title": "Kmart Whakatane",
+    "address": "The Hub 8/3 Phoenix Dr, Whakatane 3120",
+    "phone": "07-306 3400"
+  },
+  {
+    "location": [-37.6740383, 176.2234497],
+    "title": "Kmart Mount Maunganui",
+    "address": "Bayfair Shopping Centre Girven Road & Maunganui Road, Mount Maunganui, Mt Maunganui 3118",
+    "phone": "07-547 6400"
+  },
+  {
+    "location": [-37.6925144, 176.1094666],
+    "title": "Kmart Tauranga",
+    "address": "17/19 Bethlehem Rd, Bethlehem, Tauranga 3110",
+    "phone": "07-570 6500"
+  },
+  {
+    "location": [-37.7875387, 175.2772522],
+    "title": "Kmart Hamilton Central",
+    "address": "Bryce Street, Hamilton Central, Hamilton 3204",
+    "phone": "07-837 0600"
+  },
+  {
+    "location": [-37.7473719, 175.2353668],
+    "title": "Kmart Hamilton",
+    "address": "11-19 Karewa Pl, Te Rapa, Hamilton 3200",
+    "phone": "07-850 0900"
+  },
+  {
+    "location": [-36.9928186, 174.8715305],
+    "title": "Kmart Manaukau",
+    "address": "Super Centre, Lambie Dr, Manukau, Manaukau City 2104",
+    "phone": "09-261 8900"
+  },
+  {
+    "location": [-36.9709468, 174.8604584],
+    "title": "Kmart Papatoetoe",
+    "address": "Hunters Plaza Cnr Great South Rd & Sutton Crescent, Papatoetoe, Auckland 2025",
+    "phone": "09-250 5200"
+  },
+  {
+    "location": [-36.9284193, 174.9155617],
+    "title": "Kmart Botany Downs",
+    "address": "500 Ti Rakau Dr, Botany Downs, Auckland 2013",
+    "phone": "09-265 3800"
+  },
+  {
+    "location": [-36.8835339, 174.7344589],
+    "title": "Kmart Mount Albert",
+    "address": "72 St Lukes Rd, Mount Albert, Auckland 1025",
+    "phone": "09-849 9400"
+  },
+  {
+    "location": [-36.8826414, 174.6358395],
+    "title": "Kmart Henderson",
+    "address": "Waitakere Mega Centre 5 Vitasovich Ave, Henderson, Auckland 0612",
+    "phone": "09-822 5600"
+  },
+  {
+    "location": [-36.7283597, 174.7096539],
+    "title": "Kmart Albany",
+    "address": "219 Don Mckinnon Dr, Albany, Auckland 0632",
+    "phone": "09-442 8400"
+  },
+  {
+    "location": [-45.8701705, 170.5054092],
+    "title": "Kmart Dunedin",
+    "address": "287 George St, Dunedin, 9016",
+    "phone": "03-470 0100"
+  },
+  {
+    "location": [-43.5417669, 172.5066376],
+    "title": "Kmart Christchurch DC",
+    "address": "451 Waterloo Rd, Islington, Christchurch 8042",
+    "phone": false
+  },
+  {
+    "location": [-43.5313759, 172.5977898],
+    "title": "Kmart Christchurch",
+    "address": "129 Riccarton Rd, Riccarton, Christchurch 8041",
+    "phone": "03-344 8200"
+  },
+  {
+    "location": [-43.507476, 172.6647377],
+    "title": "Kmart Christchurch",
+    "address": "Cnr New Brighton & Golf Links Road, Shirley, Christchurch 8061",
+    "phone": "03-375 7400"
+  }
+]

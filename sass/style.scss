@@ -1,0 +1,209 @@
+#wrapper {
+  .row {
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+
+    > div {
+      height: 100%;
+      padding: 0;
+    }
+
+    #sidebar {
+      border-right: 1px solid #e7e7e7;
+      box-shadow: -2px 0 8px 0 #9a9a9a;
+      z-index: 100;
+
+      nav {
+        border-bottom: 1px solid #e7e7e7;
+        border-radius: 0;
+        border-width: 0;
+        margin-bottom: 0;
+        padding: 20px 15px;
+
+        .navbar-header {
+          .navbar-brand {
+            img {
+              margin-top: -7px;
+              width: 100px;
+            }
+          }
+        }
+      }
+
+      .stores {
+        .store {
+          background: #fff;
+          cursor: pointer;
+          padding: 20px 10px;
+
+          > .store-title {
+            font-size: 1.2em;
+            margin: 0;
+          }
+
+          > .store-phone {
+            margin: 0;
+          }
+
+          > .store-distance {
+            font-size: 0.8em;
+            margin: 0;
+          }
+
+          &:nth-child(odd) {
+            background: #eee;
+          }
+
+          &.is-active {
+            > .store-title {
+              font-weight: bold;
+            }
+          }
+        }
+        @media (min-width: 768px) {
+          height: calc(100vh - 91px);
+          overflow-y: scroll;
+        }
+      }
+      @media (max-width: 767px) {
+        border: none;
+        box-shadow: 0 -2px 6px 0 #9a9a9a;
+        height: auto;
+
+        nav {
+          margin-bottom: 0;
+        }
+      }
+      @media (max-width: 767px) {
+        position: fixed;
+        z-index: 100;
+
+        #stores {
+          height: calc(100vh - 91px);
+          overflow-x: scroll;
+        }
+      }
+    }
+
+    #map-wrap {
+      height: 100vh;
+
+      #map {
+        background: #eee;
+        height: 100%;
+
+        #loading {
+          left: 50%;
+          position: absolute;
+          text-align: center;
+          top: 50%;
+          -ms-transform: translate(-50%, -50%);
+          -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+
+          img {
+            width: 100px;
+          }
+
+          p {
+            margin: 5px 0 0;
+          }
+        }
+
+        .transport-icons {
+          margin-top: 5px;
+
+          .transport-icon {
+            margin-right: 5px;
+
+            img {
+              width: 32px;
+            }
+          }
+        }
+      }
+
+      #map-footer {
+        border-top: 1px solid #e7e7e7;
+        display: none;
+        height: 125px;
+
+        > .swiper-container {
+          height: 100%;
+
+          .swiper-slide {
+            padding: 20px;
+          }
+        }
+
+        h5 {
+          margin: 0;
+        }
+
+        .footer-instruction {
+          > .inst-title {
+            font-weight: normal;
+
+            > img.inst-icon {
+              float: left;
+              margin-right: 10px;
+              width: 35px;
+            }
+          }
+        }
+
+        .footer-instruction-end,
+        .footer-summary {
+          > .inst-title {
+            font-size: 1.2em;
+          }
+        }
+
+        .swiper-button-next,
+        .swiper-button-prev {
+          top: auto;
+          bottom: 10px;
+          width: 13.5px;
+          height: 22px;
+          background-size: 13.5px 22px;
+        }
+
+        .swiper-button-close {
+          background-image: url("../img/x.svg");
+          background-size: 22px;
+          bottom: auto;
+          cursor: pointer;
+          height: 22px;
+          opacity: 0.5;
+          position: absolute;
+          right: 10px;
+          top: 10px;
+          width: 22px;
+          z-index: 1;
+        }
+      }
+
+      &.show-footer {
+        #map {
+          height: calc(100vh - 125px);
+        }
+
+        #map-footer {
+          display: block;
+        }
+      }
+      @media (max-width: 767px) {
+        height: calc(100vh - 91px);
+        top: 91px;
+
+        &.show-footer {
+          #map {
+            height: calc(100vh - 91px - 125px);
+          }
+        }
+      }
+    }
+  }
+}
